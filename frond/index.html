@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Seguimiento Infantil</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center mt-5">Sistema de Seguimiento Infantil</h1>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Inicio</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="./infniño.html">Información del Niño</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./calvac.html">Calendario de Vacunación</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./regisvisitas.html">Registro de Visitas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./turmedicos.html">Turnos Médicos y Odontológicos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./entalim.html">Entrega de Alimentos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./recetas.html">Recetas Nutritivas</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="row mt-5">
+            <div class="col-md-6">
+                <h2>Información del Niño</h2>
+                <form>
+                    <div class="form-group">
+                        <label for="nombre">Nombre</label>
+                        <input type="text" class="form-control" id="nombre" placeholder="Nombre">
+                    </div>
+                    <div class="form-group">
+                        <label for="apellido">Apellido</label>
+                        <input type="text" class="form-control" id="apellido" placeholder="Apellido">
+                    </div>
+                    <div class="form-group">
+                        <label for="dni">DNI</label>
+                        <input type="text" class="form-control" id="dni" placeholder="DNI">
+                    </div>
+                    <div class="form-group">
+                        <label for="direccion">Dirección</label>
+                        <input type="text" class="form-control" id="direccion" placeholder="Dirección">
+                    </div>
+                </form>
+            </div>
+            <div class="col-md-6">
+                <h2>Calendario de Vacunación</h2>
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>Vacuna</th>
+                            <th>Fecha</th>
+                            <th>Estado</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>BCG</td>
+                            <td>01/01/2024</td>
+                            <td>Completada</td>
+                        </tr>
+                        <!-- Más filas según sea necesario -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <!-- Más secciones según sea necesario -->
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
